@@ -7,7 +7,7 @@
 body{
     font-family: 'Merriweather', serif;
     background-color: rgb(223, 223, 243);
-    overflow: hidden;
+    overflow-x: hidden;
     transition: 0.5s;
 }
 ul{
@@ -39,13 +39,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #f9fafc;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
         0 4px 6px -2px rgba(0, 0, 0, 0.05);
         z-index: 9999;
 }
 .navbar__brand{
-    width: 100%;
+    width: 100px;
 }
 .mobile__navbar__items{
     background-color: #f9fafc;
@@ -101,10 +101,6 @@ section{
     margin-top: 1rem;
 }
 
-.hero__image__container{
-    position: relative;
-    width: 100%;
-}
 .hero__image__container{
     position: relative;
     width: 100%;
@@ -209,9 +205,9 @@ section{
     border-radius: 6px;
     background: linear-gradient
     (to right,
-     #ff512f 0%,
-      #dd2476 51%,
-       #ff512f 100%);
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%);
 }
 
 /*Flexx*/
@@ -222,11 +218,11 @@ section{
     margin-top: 3rem;
 }
   
-  .restaurant__images__row_1{
+  .restaurant__images__row__1{
       display: flex;
       align-items: baseline;
   }
-  .restaurant__images__row_2 {
+  .restaurant__images__row__2 {
     margin-top: 10px;
     display: flex;
     align-items: flex-start;
@@ -316,7 +312,7 @@ section{
   }
   footer > img{
       width: 300px;
-      filter: brightness() invert(1);
+      filter: brightness(0) invert(1);
   }
   footer > ul{
       margin-top: -1rem;
